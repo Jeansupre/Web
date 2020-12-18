@@ -1,0 +1,61 @@
+body {
+    font-family: 'Gill Sans';
+    background-color: rgb(230, 212, 116);
+}
+
+caption {
+    margin-bottom: 10px;
+}
+
+table {
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 27%;
+    margin-bottom: 10px;
+    width: 650px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 8px;
+    background: #af4a4a;
+    border-top: 5px solid #237731;
+    border-bottom: 5px solid #237731;
+    color: #E7E7E7;
+}
+
+td {
+    padding: 10px;
+    background: #93a5e4;
+    border-bottom: 1px solid #fff;
+    color: rgb(36, 36, 112);
+    border-top: 1px solid transparent;
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+
+.editar {
+    color: blue;
+    cursor: pointer;
+}
+
+#contenedorForm {
+    margin-top: 15px;
+    margin-left: 27%;
+    font-size: 16px;
+}
+
+.boton {
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    background-color: #b9c9fe;
+    font-weight: bold;
+}

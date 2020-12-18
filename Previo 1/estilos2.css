@@ -1,0 +1,76 @@
+body {
+    font-family: 'Gill Sans';
+    background-color: cadetblue;
+}
+
+table {
+    font-family: 'Gill Sans';
+    font-size: 12px;
+    margin: 45px;
+    width: 200px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+th {
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(75, 118, 196);
+    padding: 5px;
+    border-radius: 10%;
+}
+
+td {
+    padding: 8px;
+    text-align: right;
+    background: rgb(82, 169, 196);
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(76, 76, 202);
+    border-radius: 10px;
+}
+
+tr:hover td {
+    background: #6a78f5;
+    color: #339;
+}
+
+span {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.square1 {
+    display: inline-block;
+    border-radius: 7px;
+    background-color: rgb(53, 53, 184);
+    width: 25px;
+}
+
+.square2 {
+    display: inline-block;
+    border-radius: 7px;
+    background-color: rgb(84, 82, 204);
+    width: 25px;
+}
+
+.square3 {
+    display: inline-block;
+    border-radius: 7px;
+    background-color: rgb(24, 207, 70);
+    width: 25px;
+}
+
+.square4 {
+    display: inline-block;
+    border-radius: 7px;
+    background-color: rgb(226, 63, 63);
+    width: 25px;
+}
